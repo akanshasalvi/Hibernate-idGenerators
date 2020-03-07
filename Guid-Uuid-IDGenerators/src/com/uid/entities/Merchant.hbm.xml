@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.uid.entities">
+	<class name="Merchant" table="merchant">
+		<id name="merchant_no" column="merchant_no">
+			<generator class="guid"/>
+		</id>
+
+		<property name="merchant_registrated_date" column="merchant_registrated_date" />
+		<property name="product_Name" column = "product_Name" />
+		<property name="contact_no" column="contact_no" />
+		<property name="product_name" column="email_address" />
+	</class>
+</hibernate-mapping>
