@@ -10,6 +10,8 @@ public class Merchant implements Serializable{
 	protected String product_Name;
 	protected String contact_no;
 	protected String email_address;
+	
+	
 	public String getMerchant_no() {
 		return merchant_no;
 	}
@@ -46,4 +48,10 @@ public class Merchant implements Serializable{
 				+ ", product_Name=" + product_Name + ", contact_no=" + contact_no + ", email_address=" + email_address
 				+ "]";
 	}
+	
+	
+	
+	
+	
+	
 }
